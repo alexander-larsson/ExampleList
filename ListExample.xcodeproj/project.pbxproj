@@ -12,6 +12,8 @@
 		11726C1925164672007180C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11726C1825164672007180C7 /* Assets.xcassets */; };
 		11726C1C25164672007180C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11726C1B25164672007180C7 /* Preview Assets.xcassets */; };
 		11726C25251648B2007180C7 /* List+Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11726C24251648B2007180C7 /* List+Separator.swift */; };
+		11726C332517B9BC007180C7 /* RoundedCardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11726C322517B9BC007180C7 /* RoundedCardModifier.swift */; };
+		11726C362517BAD8007180C7 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11726C352517BAD8007180C7 /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		11726C1B25164672007180C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11726C1D25164672007180C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11726C24251648B2007180C7 /* List+Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "List+Separator.swift"; sourceTree = "<group>"; };
+		11726C322517B9BC007180C7 /* RoundedCardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCardModifier.swift; sourceTree = "<group>"; };
+		11726C352517BAD8007180C7 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				11726C142516466E007180C7 /* ListExampleApp.swift */,
 				11726C162516466E007180C7 /* ContentView.swift */,
+				11726C352517BAD8007180C7 /* Header.swift */,
 				11726C24251648B2007180C7 /* List+Separator.swift */,
 				11726C1825164672007180C7 /* Assets.xcassets */,
 				11726C1D25164672007180C7 /* Info.plist */,
 				11726C1A25164672007180C7 /* Preview Content */,
+				11726C322517B9BC007180C7 /* RoundedCardModifier.swift */,
 			);
 			path = ListExample;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11726C362517BAD8007180C7 /* Header.swift in Sources */,
 				11726C25251648B2007180C7 /* List+Separator.swift in Sources */,
 				11726C172516466E007180C7 /* ContentView.swift in Sources */,
+				11726C332517B9BC007180C7 /* RoundedCardModifier.swift in Sources */,
 				11726C152516466E007180C7 /* ListExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
